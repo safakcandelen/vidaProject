@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['H', 'PH', 'PZ', 'SL', 'T']
+
+roboflow:
+  workspace: safakcandelen
+  project: full-screw-head-detection-h0gnc
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/safakcandelen/full-screw-head-detection-h0gnc/dataset/1
